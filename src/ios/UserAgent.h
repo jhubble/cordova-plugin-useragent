@@ -5,10 +5,20 @@
 
 @property (nonatomic, strong) IBOutlet WKWebView* webView;
 
-- (void)get:(CDVInvokedUrlCommand*)command;
+- (void)getUserAgent:(CDVInvokedUrlCommand*)command;
 
-- (void)set:(CDVInvokedUrlCommand*)command;
+- (void)setUserAgent:(CDVInvokedUrlCommand*)command;
 
-- (void)reset:(CDVInvokedUrlCommand*)command;
+- (void)resetUserAgent:(CDVInvokedUrlCommand*)command;
+
+- (void)getAppName:(CDVInvokedUrlCommand*)command;
+
+- (void)getPackageName:(CDVInvokedUrlCommand*)command;
+
+- (void)getVersionNumber:(CDVInvokedUrlCommand*)command;
+
+- (void)getVersionCode:(CDVInvokedUrlCommand*)command;
+
+- (void)setAkamaiUserAgent:(CDVInvokedUrlCommand*)command;
 
 @end

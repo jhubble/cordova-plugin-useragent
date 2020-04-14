@@ -1,31 +1,12 @@
 {
-  "name": "cordova-plugin-useragent",
-  "version": "1.0.6",
+  "name": "cordova-plugin-botmanuseragent",
+  "version": "1.0.0",
   "description": "Allows you to change your User-Agent for HTTP requests.",
   "cordova": {
-    "id": "com.danielsogl.cordova.useragent",
+    "id": "com.hollandamerica.cordova.botmanuseragent",
     "platforms": [
       "android",
       "ios"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danielsogl/cordova-plugin-useragent.git"
-  },
-  "keywords": [
-    "user",
-    "agent",
-    "useragent",
-    "user-agent",
-    "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
-  ],
-  "author": "Daniel Sogl",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/danielsogl/cordova-plugin-useragent/issues"
-  },
-  "homepage": "https://github.com/danielsogl/cordova-plugin-useragent#readme"
+  }
 }
